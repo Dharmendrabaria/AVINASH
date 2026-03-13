@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { useTheme } from '../context/ThemeContext';
+
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hovered, setHovered] = useState(false);
   const [hidden, setHidden] = useState(false);
-  const { theme } = useTheme();
+
 
   useEffect(() => {
-    let animationFrameId;
 
     const onMouseMove = (e) => {
       // Direct update for dot

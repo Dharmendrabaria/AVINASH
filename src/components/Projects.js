@@ -132,7 +132,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              <a href="#" className="btn-primary" style={{ background: selectedProject.color, boxShadow: `0 10px 30px ${selectedProject.color}60` }}>
+              <a href="#!" className="btn-primary" style={{ background: selectedProject.color, boxShadow: `0 10px 30px ${selectedProject.color}60` }}>
                 View Live Link <FiExternalLink size={16} />
               </a>
             </div>
